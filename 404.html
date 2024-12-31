@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Not Found</title>
+
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 600px; width: 90%; margin: 20px; padding: 3rem; border-radius: 1rem; text-align: center; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1); animation: slideUp 0.5s ease-out; }
+      #message h3 { color: #888; font-weight: normal; font-size: 16px; margin: 16px 0 12px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 8rem; font-weight: 900; color: white; margin-bottom: 1rem; text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75), -0.025em -0.05em 0 rgba(0, 0, 0, 0.75); animation: glitch 3s infinite linear alternate-reverse, bounce 2s infinite; position: relative; letter-spacing: -0.05em; }
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+
+      @keyframes glitch {
+        0% {
+          clip-path: inset(50% 0 30% 0);
+          transform: translate(-0.04em, -0.03em);
+          opacity: 0.75;
+        }
+        20% {
+          clip-path: inset(15% 0 65% 0);
+          transform: translate(0.04em, 0.03em);
+          opacity: 0.85;
+        }
+        40% {
+          clip-path: inset(80% 0 5% 0);
+          transform: translate(-0.04em, 0.03em);
+          opacity: 0.9;
+        }
+        60% {
+          clip-path: inset(5% 0 85% 0);
+          transform: translate(0.04em, 0.03em);
+          opacity: 0.8;
+        }
+        80% {
+          clip-path: inset(35% 0 35% 0);
+          transform: translate(-0.04em, -0.03em);
+          opacity: 0.95;
+        }
+        100% {
+          clip-path: inset(70% 0 15% 0);
+          transform: translate(0.04em, 0.03em);
+          opacity: 0.7;
+        }
+      }
+
+      #message h1::before,
+      #message h1::after {
+        content: '404';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      #message h1::before {
+        animation: glitch 0.4s cubic-bezier(.25, .46, .45, .94) both infinite;
+        color: #ff0000;
+        z-index: -1;
+      }
+
+      #message h1::after {
+        animation: glitch 0.4s cubic-bezier(.25, .46, .45, .94) reverse both infinite;
+        color: #000000;
+        z-index: -2;
+      }
+
+      .contact-info {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #e5e7eb;
+      }
+
+      .contact-info h3 {
+        color: var(--text-color);
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+      }
+
+      .social-links {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+      .social-links a {
+        padding: 0.5rem 1rem;
+        background: #f3f4f6;
+        border-radius: 0.25rem;
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: 0.9rem;
+        transition: all 0.2s ease;
+      }
+
+      .social-links a:hover {
+        background: var(--primary-color);
+        color: white;
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <h1>404</h1>
+      <h2>Page Not Found</h2>
+      <p>Oops! The page you're looking for seems to have vanished into the digital void. Please check the URL and try again.</p>
+      <a href="/" class="button">Back to Home</a>
+      
+      <div class="contact-info">
+        <h3>Need Help? Contact the Developer</h3>
+        <p>Portfolio developed by Aditya Devarshi (Curseofwitcher)</p>
+        <div class="social-links">
+          <a href="https://www.adityadevarshi.online/" target="_blank" rel="noopener">Portfolio</a>
+          <a href="https://www.instagram.com/curseofwitcher/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/in/aditya-devarshi/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      console.log('%c 404 - Page Not Found ', 'background: #ff0000; color: white; font-size: 24px; font-weight: bold; padding: 10px;');
+      console.log('%c Developed by Aditya Devarshi (Curseofwitcher) ', 'background: #1a1a1a; color: white; font-size: 16px; padding: 5px;');
+      console.log('Portfolio: https://www.adityadevarshi.online/');
+      console.log('Instagram: https://www.instagram.com/curseofwitcher/');
+      console.log('LinkedIn: https://www.linkedin.com/in/aditya-devarshi/');
+    </script>
+  </body>
+</html>
